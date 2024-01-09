@@ -1,4 +1,7 @@
 /* Util css  */
+.fs-20 {
+  font-size: 20px;
+}
 .active-tab {
   display: block;
 }
@@ -86,6 +89,10 @@
 }
 
 /* styles css  */
+.sidebar-icon{
+  font-size: 20px;
+  color: #030050;
+}
 #sidebar-icon-id {
   display: none;
 }
