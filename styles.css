@@ -30,6 +30,9 @@
   display: flex;
 }
 
+.flex-wraped{
+  flex-wrap: wrap
+}
 .space-around {
   justify-content: space-around;
 }
@@ -42,6 +45,9 @@
   align-items: center;
 }
 
+.text-center{
+  text-align: center;
+}
 .profile-photo {
   max-width: 3vw;
   border-radius: 50%;
@@ -128,10 +134,12 @@ header {
 }
 
 .header-list li {
-  margin: 0 10px;
-  border-radius: 17px;
+  margin: 0 5px;
+  padding: 3px 7px;
+  border-radius: 7px;
   cursor: pointer;
   font-weight: 400;
+  background: #f7f7ff;
 }
 
 .header-list li a {
@@ -140,14 +148,15 @@ header {
 }
 
 .header-list li:hover {
-  background-color: white;
+  background-color: #e9e9ff91;
   color: black;
   font-weight: bold;
 }
 
 .header-title {
   font-size: 2.3rem;
-  font-family: ui-rounded;
+  /* font-family: cursive; */
+  font-family:'Courier New', Courier, monospace;
   margin: auto;
   padding: auto;
 }
@@ -169,10 +178,17 @@ header {
   font-size: x-large;
 }
 
+.social-apps-2{
+  /* display: flex; */
+}
+.social-app{
+  display: inline;
+  margin: auto;
+}
+.social-app a img{
+  max-width: 24px;
+}
 .body-text {
-  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* font-family:'Times New Roman', Times, serif; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -235,6 +251,10 @@ header {
   width: 40%;
 }
 
+.p83p {
+  width: 83%;
+}
+
 #resume-button {
   display: flex;
   justify-content: center;
@@ -260,6 +280,9 @@ header {
 
 .card-img-tag {
   max-width: 15vw;
+  object-fit: cover;
+  min-height: 14vh;
+  border-radius: 2.5px;
 }
 
 .cards {
@@ -275,24 +298,34 @@ header {
   border-radius: 7px;
 }
 
-#services-id {
+.min-36-vw{
+  min-width: 36vw;
+}
+#services-id, #education-id, #certification-id, #experience-id, #achievement-id{
   flex-wrap: wrap;
   justify-content: center;
 }
 
+#education-id div div div{
+  display: flex;
+  justify-content: space-between;
+}
+#education-id div div{
+  min-width: 33vw;
+}
 #blogs-id {
   width: 80vw;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.blog-types {
+.selection-types {
   padding: 0 2rem;
   margin: 0 6rem;
   border-radius: 10px;
 }
 
-.blog-types-ul li {
+.selection-types-ul li {
   list-style: none;
   margin: 0 10px;
   cursor: pointer;
@@ -302,11 +335,11 @@ header {
   /* font-size: small; */
 }
 
-.blog-types-ul li:hover {
+.selection-types-ul li:hover {
   background-color: whitesmoke;
 }
 
-.blog-divs {
+.selection-dives {
   margin: 0 6rem;
   padding: 0 2rem;
   max-width: 80vw;
@@ -389,8 +422,8 @@ element.style {
   justify-content: space-between;
   margin: 2rem;
   min-height: 17rem;
-  max-width: 24rem;
-  min-width: 19rem;
+  max-width: 21rem;
+  min-width: 21rem;
 }
 
 .card-date {
@@ -639,18 +672,18 @@ footer {
   }
 
 
-  .blog-types {
+  .selection-types {
     padding: 0;
     margin: 0;
   }
 
-  .blog-types-ul li {
+  .selection-types-ul li {
     margin: 0 4px;
     padding: 5px;
     font-size: 11px;
   }
 
-  .blog-divs {
+  .selection-dives {
     margin: 0;
     padding: 0;
     max-width: 100vw;
