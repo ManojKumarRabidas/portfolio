@@ -325,6 +325,11 @@ header {
   border-radius: 10px;
 }
 
+.selection-types-ul{
+  max-width: 90vw;
+  overflow: scroll;
+}
+
 .selection-types-ul li {
   list-style: none;
   margin: 0 10px;
@@ -332,6 +337,7 @@ header {
   padding: 15px;
   border: 2px solid white;
   border-radius: 7px;
+  text-wrap: nowrap;
   /* font-size: small; */
 }
 
