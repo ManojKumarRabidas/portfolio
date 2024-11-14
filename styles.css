@@ -95,6 +95,9 @@
 }
 
 /* styles css  */
+::-webkit-scrollbar {  
+    display: none;  
+} 
 .sidebar-icon{
   font-size: 20px;
   color: #030050;
