@@ -342,6 +342,13 @@
   .project-card div a{
     margin-top: 5px;
   }
+  
+  .project-footer, .blog-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .blog-card, .project-card {
     background: #16213e;
     padding: 1.5rem;
@@ -353,7 +360,7 @@
   
   .blog-card i { font-size: 2rem; margin-bottom: 1rem; }
   .blog-card h3, .project-card h3 { color: #00d4ff; margin-bottom: 0.5rem; }
-  .blog-buttons, .project-buttons { display: flex; gap: 1rem; margin-top: 1rem; }
+  .blog-buttons, .project-buttons { display: flex; gap: 1rem; }
   
   .btn {
     cursor: pointer;
@@ -385,7 +392,7 @@
     background: #16213e;
     color: #e0e0e0;
   }
-  
+  .form-button{display: flex; justify-content: end;}
   .contact-info h3 { color: #00d4ff; margin-bottom: 1rem; }
   .contact-info p { margin-bottom: 0.5rem; }
   .contact-info a { color: #00d4ff; text-decoration: none; }
