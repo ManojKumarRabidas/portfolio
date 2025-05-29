@@ -1,0 +1,355 @@
+/* 
+  Responsive Stylesheet for Manoj Kumar Rabidas Portfolio
+  Author: Manoj Kumar Rabidas
+  Version: 1.0
+*/
+
+/* ---------- Responsive Styles ---------- */
+
+/* Extra Large Devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Large Devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  h1 {
+    font-size: 2.75rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+  }
+  
+  .profile-container {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .hero-text {
+    margin-top: var(--space-4);
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .profile-container {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .about-content {
+    flex-direction: column;
+    gap: var(--space-5);
+  }
+  
+  .contact-content {
+    flex-direction: column;
+    gap: var(--space-5);
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--space-3);
+    text-align: center;
+  }
+  
+  .footer-links,
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+/* Small Devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-6) var(--space-3);
+    transition: left var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+    z-index: 1001;
+  }
+  
+  #navbar.active {
+    left: 0;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .nav-links li {
+    margin-left: 0;
+    margin-bottom: var(--space-3);
+    width: 100%;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: var(--space-2) 0;
+    width: 100%;
+  }
+  
+  .hamburger {
+    display: flex;
+    z-index: 1002;
+  }
+  
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  
+  .theme-toggle {
+    margin-left: 0;
+    margin-top: var(--space-4);
+  }
+  
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .hero-text {
+    margin-top: var(--space-4);
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .profile-container {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .about-content,
+  .contact-content {
+    flex-direction: column;
+    gap: var(--space-5);
+  }
+  
+  .project-filter {
+    flex-wrap: wrap;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--space-3);
+    text-align: center;
+  }
+  
+  .footer-links,
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+/* Extra Small Devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-6) var(--space-3);
+    transition: left var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+    z-index: 1001;
+  }
+  
+  #navbar.active {
+    left: 0;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .nav-links li {
+    margin-left: 0;
+    margin-bottom: var(--space-3);
+    width: 100%;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: var(--space-2) 0;
+    width: 100%;
+  }
+  
+  .hamburger {
+    display: flex;
+    z-index: 1002;
+  }
+  
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  
+  .theme-toggle {
+    margin-left: 0;
+    margin-top: var(--space-4);
+  }
+  
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: var(--space-3);
+  }
+  
+  .hero-text {
+    margin-top: var(--space-3);
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: var(--space-2);
+    align-items: center;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  .profile-container {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .about-content,
+  .contact-content {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  
+  .section-title h2 {
+    font-size: 1.75rem;
+  }
+  
+  .project-filter {
+    flex-wrap: wrap;
+    gap: var(--space-1);
+  }
+  
+  .filter-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.875rem;
+    margin-bottom: var(--space-1);
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--space-3);
+    text-align: center;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  
+  .footer-social {
+    justify-content: center;
+    margin-top: var(--space-2);
+  }
+}

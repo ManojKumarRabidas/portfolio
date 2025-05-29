@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manoj Kumar Rabidas | Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <script src="/js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="loader-content">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+      </div>
+    </div>
+
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#home">MKR</a>
+        </div>
+        <nav id="navbar">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="theme-toggle">
+          <span id="theme-icon">🌙</span>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h5 style="color: red;">This site is under development</h5>
+              <h1 class="fade-in">Manoj Kumar Rabidas</h1>
+              <h2 class="slide-in">Software Engineer & AI Enthusiast</h2>
+              <p class="fade-in-delay">Creating innovative solutions with code and creativity</p>
+              <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+              </div>
+            </div>
+            <div class="hero-image fade-in">
+              <div class="profile-container">
+                <img id="profile-pic" src="/images/manoj-1.jpeg" alt="Manoj Kumar Rabidas" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-background">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="about-text">
+            <p>
+              Hello! I'm Manoj, a passionate Software Engineer and AI enthusiast with a strong foundation in full-stack development. I specialize in building exceptional digital experiences that combine innovative technology with intuitive design.
+            </p>
+            <p>
+              With several years of experience in the tech industry, I've worked on diverse projects ranging from web applications to AI-powered solutions. I'm constantly exploring new technologies and methodologies to enhance my skill set and deliver cutting-edge solutions.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or sharing my knowledge through technical writing and mentoring.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-column">
+              <h3>Technical Skills</h3>
+              <ul>
+                <li>React.js (Vite), jQuery, AngularJS</li>
+                <li>Node.js (Express.js, KOA.js)</li>
+                <li>MongoDB, SQL (Basic)</li>
+                <li>C, Python (Basic), Java (Core), JavaScript</li>
+                <li>FastAPI, AI Tools (LLMs, LangChain)</li>
+              </ul>
+            </div>
+            <div class="skill-column">
+              <h3>Non-Technical Skills</h3>
+              <ul>
+                <li>Leadership</li>
+                <li>Public Speaking</li>
+                <li>Team Management</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="project-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <!-- <button class="filter-btn" data-filter="mobile">Mobile</button> -->
+          </div>
+          <div class="projects-grid">
+            <!-- Project cards will be dynamically generated -->
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Resume</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="resume-content">
+            <div class="resume-timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>MERN Stack Developer</h3>
+                  <p class="timeline-company">Freelancing</p>
+                  <p class="timeline-date">Jan 2024 - Present</p>
+                  <p class="timeline-description">
+                    Working on the development of cutting-edge web applications and AI-powered solutions.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Junior Software Engineer</h3>
+                  <p class="timeline-company">Illimitable Consulting Pvt. Ltd.</p>
+                  <p class="timeline-date">Apr 2023 - Dec 2023</p>
+                  <p class="timeline-description">
+                    Developed and maintained multiple web applications using the MongoDB, NodeJS, KoaJS, AngularJS. Collaborated with designers and product managers to deliver high-quality products.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>NodeJS Developer</h3>
+                  <p class="timeline-company">Illimitable Consulting Pvt. Ltd.</p>
+                  <p class="timeline-date">Jan 2023 - Mar 2023</p>
+                  <p class="timeline-description">
+                    Assisted in the development of responsive websites and web applications. Gained experience in HBS, CSS, JavaScript, NodeJS, KoaJS, MongoDB, JQuery.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="resume-download">
+              <a href="/pdfs/Manoj_Kumar_Rabidas_Resume_c.pdf" target="_blank" class="btn primary-btn">
+                <span class="btn-text">Download CV</span>
+                <span class="btn-icon">↓</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="achievements-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Achievements</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="achievements-grid">
+            <div class="achievement-box">Team Leader, MCA Major Project (2025)</div>
+            <div class="achievement-box">Team Leader, MCA Minor Project (2024)</div>
+            <div class="achievement-box">Team Leader, Oracle APEX Hackathon (2024)</div>
+            <div class="achievement-box">Placement Coordinator, MCA (2024-2025)</div>
+            <div class="achievement-box">Team Leader, BCA Major Project (2023)</div>
+            <div class="achievement-box">Team Leader, BCA Minor Project (2023)</div>
+            <div class="achievement-box">Class Representative, BCA (2021–2023)</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <span>📧</span>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Email</h4>
+                    <p>manojkumarofficial777@gmail.com</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <span>📱</span>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Phone</h4>
+                    <p>+91 7384969512</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <span>📍</span>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Location</h4>
+                    <p>Kolkata, West Bengal, India</p>
+                  </div>
+                </div>
+              </div>
+              <div class="social-links">
+                <a href="https://github.com/ManojKumarRabidas" target="_blank" class="social-link">
+                  <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/manoj-kumar-rabidas-a6938222a/" target="_blank" class="social-link">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/ManojKu12969798" target="_blank" class="social-link">
+                  <span>Twitter</span>
+                </a>
+              </div>
+            </div>
+            <div class="contact-form-container">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">
+                  <span class="btn-text disabled">Send Message</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home">MKR</a>
+          </div>
+          
+          <div class="footer-social">
+            <label for="version-switcher">Versions:</label>
+            <select id="version-switcher" onchange="window.location.href=this.value">
+              <option value="/index.html">v-3.1.1</option>
+              <option value="/v1-1-1/index.html">v-2.6.2</option>
+              <option value="/v1-0-0/index.html">v-1.2.4</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Manoj Kumar Rabidas. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-to-top">
+      <span>⬆</span>
+    </div>
+  </body>
+</html>
