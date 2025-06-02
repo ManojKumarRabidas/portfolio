@@ -933,3 +933,26 @@ section {
   background-color: var(--primary-dark);
   transform: translateY(-3px);
 }
+
+/* Content-not available page */
+
+.contant-not-available-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.contant-not-available-main{
+  text-align: center;
+  padding: var(--space-4);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  background-color: var(--bg-secondary);
+}
+
+.content-not-available-text{
+  font-size: large;
+}

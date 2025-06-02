@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="images/manoj-1.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manoj Kumar Rabidas | Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
@@ -27,8 +27,10 @@
           <ul class="nav-links">
             <li><a href="#home" class="nav-link active">Home</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
         </nav>
@@ -105,7 +107,7 @@
                 <li>Node.js (Express.js, KOA.js)</li>
                 <li>MongoDB, SQL (Basic)</li>
                 <li>C, Python (Basic), Java (Core), JavaScript</li>
-                <li>FastAPI, AI Tools (LLMs, LangChain)</li>
+                <li>FastAPI, OLLAMA</li>
               </ul>
             </div>
             <div class="skill-column">
@@ -183,7 +185,7 @@
               </div>
             </div>
             <div class="resume-download">
-              <a href="/pdfs/Manoj_Kumar_Rabidas_Resume_c.pdf" target="_blank" class="btn primary-btn">
+              <a href="pdfs/Manoj_Kumar_Rabidas_Resume_c.pdf" target="_blank" class="btn primary-btn">
                 <span class="btn-text">Download CV</span>
                 <span class="btn-icon">↓</span>
               </a>
@@ -299,8 +301,8 @@
             <label for="version-switcher">Versions:</label>
             <select id="version-switcher" onchange="window.location.href=this.value">
               <option value="/index.html">v-3.1.1</option>
-              <option value="/v1-1-1/index.html">v-2.6.2</option>
-              <option value="/v1-0-0/index.html">v-1.2.4</option>
+              <option value="/v2/index.html">v-2.6.2</option>
+              <option value="/v2/index-old.html">v-1.2.4</option>
             </select>
           </div>
 
@@ -316,3 +318,16 @@
     </div>
   </body>
 </html>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const selector = document.getElementById('version-switcher');
+    const currentPath = window.location.pathname;
+
+    for (let i = 0; i < selector.options.length; i++) {
+      if (selector.options[i].value === currentPath) {
+        selector.selectedIndex = i;
+        break;
+      }
+    }
+  });
+</script>

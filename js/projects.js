@@ -1,83 +1,13 @@
-/**
- * Projects JavaScript file for Manoj Kumar Rabidas Portfolio
- * Author: Manoj Kumar Rabidas
- * Version: 1.0
- */
-
-// Project data
-// const projects = [
-//   {
-//     id: 1,
-//     title: 'AI-Powered Task Manager',
-//     category: 'ai',
-//     image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'A task management application that uses AI to prioritize and categorize tasks for improved productivity.',
-//     technologies: ['Python', 'FastAPI', 'React', 'TensorFlow'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   },
-//   {
-//     id: 2,
-//     title: 'E-Commerce Platform',
-//     category: 'web',
-//     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
-//     technologies: ['MERN Stack', 'Redux', 'Stripe API'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   },
-//   {
-//     id: 3,
-//     title: 'Health Tracking Mobile App',
-//     category: 'mobile',
-//     image: 'https://images.pexels.com/photos/6787202/pexels-photo-6787202.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'A mobile application for tracking health metrics, exercise routines, and nutritional information.',
-//     technologies: ['React Native', 'Firebase', 'HealthKit API'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   },
-//   {
-//     id: 4,
-//     title: 'Real-time Chat Application',
-//     category: 'web',
-//     image: 'https://images.pexels.com/photos/1549280/pexels-photo-1549280.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'A real-time chat application with features like private messaging, group chats, and file sharing.',
-//     technologies: ['Node.js', 'Socket.io', 'React', 'MongoDB'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   },
-//   {
-//     id: 5,
-//     title: 'AI Image Recognition Tool',
-//     category: 'ai',
-//     image: 'https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'An image recognition tool that can identify objects, people, and scenes using machine learning algorithms.',
-//     technologies: ['Python', 'TensorFlow', 'OpenCV', 'Flask'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   },
-//   {
-//     id: 6,
-//     title: 'Fitness Tracker App',
-//     category: 'mobile',
-//     image: 'https://images.pexels.com/photos/3927385/pexels-photo-3927385.jpeg?auto=compress&cs=tinysrgb&w=600',
-//     description: 'A mobile app for tracking workouts, setting fitness goals, and monitoring progress.',
-//     technologies: ['React Native', 'Redux', 'Firebase'],
-//     github: 'https://github.com/',
-//     live: 'https://example.com/'
-//   }
-// ];
-
 const projects = [
   {
     id: 1,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
     image: 'images/ChatAGENT-icon.png?auto=compress&cs=tinysrgb&w=600',
-    description: 'A chatbot which can reply the basic query of users.',
-    technologies: ['Python,', ' FastAPI,', ' React,',  ' LLM', ' MySQL'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    description: 'An AI powered chatbot which can reply the basic queries of users using "qwen2.5:0.5b" model.',
+    technologies: ['Python,', ' FastAPI,', ' React,',  ' OLLAMA,', ' MySQL,', ' Model: "qwen2.5:0.5b"'],
+    github: 'https://github.com/ManojKumarRabidas/ChatAGENT',
+    live: '/content-not-available.html',
   },
   {
     id: 2,
@@ -86,18 +16,18 @@ const projects = [
     image: 'images/stockezz-2.png?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application developed with React-Node which will manage and track the stock, bills, payments for large and medium size company or store.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: 'https://github.com/ManojKumarRabidas/StockEZZ',
+    live: '/content-not-available.html',
   },
   {
     id: 3,
     title: 'EduInsights - A Student & Teacher Feedback System',
     category: 'web',
     image: 'images/eduinsights-2.png?auto=compress&cs=tinysrgb&w=600',
-    description: 'A feedback giving web application for college. A student will give feedback to his teachers and visa versa. This information of feedback will help the user and the college authority to understand their students and teachers potential and can take necessery decision.',
+    description: 'College feedback web app enabling students and teachers to exchange feedback. This insight empowers users and college leadership for informed action.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: 'https://github.com/ManojKumarRabidas/EduInsights',
+    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDTWEtgSbcO9m3ZHn-Z1tynk&si=xM1hqX_h6z3v5vCz',
   },
   {
     id: 4,
@@ -106,8 +36,8 @@ const projects = [
     image: 'images/ems.png?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a saas web application for the medium or small size organization to track there employess performation and store their information.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: 'https://github.com//ManojKumarRabidas/EMS',
+    live: '/content-not-available.html',
   },
   {
     id: 5,
@@ -116,8 +46,8 @@ const projects = [
     image: 'images/hrutoday.png?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application (product) of RVS Health Care Pvt. Ltd. Developed by Illimitable Consulting Pvt. Ltd. Which has multiple module like Doctor Module, Patient Module, Hospital Module etc.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: '/content-not-available.html',
+    live: 'https://hru.today/'
   },
   {
     id: 6,
@@ -126,8 +56,8 @@ const projects = [
     image: 'images/ctta.png?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: '/content-not-available.html',
+    live: 'https://ctta.tealink.in/'
   },
   {
     id: 6,
@@ -136,8 +66,8 @@ const projects = [
     image: 'images/mentorwallah.png?auto=compress&cs=tinysrgb&w=600',
     description: 'A web applicatio where anyone can find a specilized mentor. This is a platform where anyone can find a mentor for their career, business, or any other field.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' PHP,', ' MySQL'],
-    github: 'https://github.com/',
-    live: 'https://example.com/'
+    github: '/content-not-available.html',
+    live: '/content-not-available.html',
   }
 ];
 
