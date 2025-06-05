@@ -1,6 +1,16 @@
 const projects = [
   {
     id: 1,
+    title: 'Resume Builder - A Web Application',
+    category: 'web',
+    image: 'images/resume-builder.png?auto=compress&cs=tinysrgb&w=600',
+    description: 'An web application where you can build your customize resume with one click..',
+    technologies: ['MongoDB,', ' React,', ' Node,',  ' Express,', ' TypeScript,', ' Tailwind CSS,'],
+    github: 'https://github.com/ManojKumarRabidas/resume-builder',
+    live: '/content-not-available.html',
+  },
+  {
+    id: 1,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
     image: 'images/ChatAGENT-icon.png?auto=compress&cs=tinysrgb&w=600',
