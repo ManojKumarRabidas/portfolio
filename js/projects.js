@@ -7,7 +7,7 @@ const projects = [
     description: 'An web application where you can build your customize resume with one click..',
     technologies: ['MongoDB,', ' React,', ' Node,',  ' Express,', ' TypeScript,', ' Tailwind CSS,'],
     github: 'https://github.com/ManojKumarRabidas/resume-builder',
-    live: '/content-not-available.html',
+    live: 'content-not-available.html',
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ const projects = [
     description: 'An AI powered chatbot which can reply the basic queries of users using "qwen2.5:0.5b" model.',
     technologies: ['Python,', ' FastAPI,', ' React,',  ' OLLAMA,', ' MySQL,', ' Model: "qwen2.5:0.5b"'],
     github: 'https://github.com/ManojKumarRabidas/ChatAGENT',
-    live: '/content-not-available.html',
+    live: 'content-not-available.html',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const projects = [
     description: 'This is a web application developed with React-Node which will manage and track the stock, bills, payments for large and medium size company or store.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
     github: 'https://github.com/ManojKumarRabidas/StockEZZ',
-    live: '/content-not-available.html',
+    live: 'content-not-available.html',
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const projects = [
     description: 'This is a saas web application for the medium or small size organization to track there employess performation and store their information.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' MongoDB'],
     github: 'https://github.com//ManojKumarRabidas/EMS',
-    live: '/content-not-available.html',
+    live: 'content-not-available.html',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projects = [
     image: 'images/hrutoday.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application (product) of RVS Health Care Pvt. Ltd. Developed by Illimitable Consulting Pvt. Ltd. Which has multiple module like Doctor Module, Patient Module, Hospital Module etc.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
-    github: '/content-not-available.html',
+    github: 'content-not-available.html',
     live: 'https://hru.today/'
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     image: 'images/ctta.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
-    github: '/content-not-available.html',
+    github: 'content-not-available.html',
     live: 'https://ctta.tealink.in/'
   },
   {
@@ -76,8 +76,8 @@ const projects = [
     image: 'images/mentorwallah.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'A web applicatio where anyone can find a specilized mentor. This is a platform where anyone can find a mentor for their career, business, or any other field.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' PHP,', ' MySQL'],
-    github: '/content-not-available.html',
-    live: '/content-not-available.html',
+    github: 'content-not-available.html',
+    live: 'content-not-available.html',
   }
 ];
 

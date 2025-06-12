@@ -985,7 +985,7 @@ section {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: var(--bg-primary);
+  /* background-color: var(--bg-primary); */
 }
 
 .contant-not-available-main{
@@ -993,7 +993,7 @@ section {
   padding: var(--space-4);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-lg);
-  background-color: var(--bg-secondary);
+  /* background-color: var(--bg-secondary); */
 }
 
 .content-not-available-text{
