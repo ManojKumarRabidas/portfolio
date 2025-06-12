@@ -21,7 +21,7 @@ const downloadResumeBtn = document.getElementById('download-resume');
 
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-  const text = "Building with coffee & code... ";
+  const text = "Building   with   coffee   &   code... ";
 const container = document.getElementById("crazy-text");
 container.innerHTML = text
   .split("")
