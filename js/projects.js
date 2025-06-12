@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'Resume Builder - A Web Application',
     category: 'web',
-    image: 'images/resume-builder.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/resume-builder.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An web application where you can build your customize resume with one click..',
     technologies: ['MongoDB,', ' React,', ' Node,',  ' Express,', ' TypeScript,', ' Tailwind CSS,'],
     github: 'https://github.com/ManojKumarRabidas/resume-builder',
@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
-    image: 'images/ChatAGENT-icon.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/ChatAGENT-icon.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An AI powered chatbot which can reply the basic queries of users using "qwen2.5:0.5b" model.',
     technologies: ['Python,', ' FastAPI,', ' React,',  ' OLLAMA,', ' MySQL,', ' Model: "qwen2.5:0.5b"'],
     github: 'https://github.com/ManojKumarRabidas/ChatAGENT',
@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     title: 'StockEZZ - An Inventory & Billing Management System',
     category: 'web',
-    image: 'images/stockezz-2.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/stockezz-2.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application developed with React-Node which will manage and track the stock, bills, payments for large and medium size company or store.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
     github: 'https://github.com/ManojKumarRabidas/StockEZZ',
@@ -33,7 +33,7 @@ const projects = [
     id: 3,
     title: 'EduInsights - A Student & Teacher Feedback System',
     category: 'web',
-    image: 'images/eduinsights-2.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/eduinsights-2.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'College feedback web app enabling students and teachers to exchange feedback. This insight empowers users and college leadership for informed action.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
     github: 'https://github.com/ManojKumarRabidas/EduInsights',
@@ -43,7 +43,7 @@ const projects = [
     id: 4,
     title: 'EMS – Employee Management System',
     category: 'web',
-    image: 'images/ems.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/ems.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a saas web application for the medium or small size organization to track there employess performation and store their information.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' MongoDB'],
     github: 'https://github.com//ManojKumarRabidas/EMS',
@@ -53,7 +53,7 @@ const projects = [
     id: 5,
     title: 'HRUToday Doctor Module',
     category: 'web',
-    image: 'images/hrutoday.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/hrutoday.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application (product) of RVS Health Care Pvt. Ltd. Developed by Illimitable Consulting Pvt. Ltd. Which has multiple module like Doctor Module, Patient Module, Hospital Module etc.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
     github: '/content-not-available.html',
@@ -63,7 +63,7 @@ const projects = [
     id: 6,
     title: 'CTTA Application',
     category: 'web',
-    image: 'images/ctta.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/ctta.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
     github: '/content-not-available.html',
@@ -73,7 +73,7 @@ const projects = [
     id: 6,
     title: 'Mentorwallah - A Mentorship Platform',
     category: 'web',
-    image: 'images/mentorwallah.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'images/mentorwallah.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'A web applicatio where anyone can find a specilized mentor. This is a platform where anyone can find a mentor for their career, business, or any other field.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' PHP,', ' MySQL'],
     github: '/content-not-available.html',
@@ -136,7 +136,7 @@ function createProjectCard(project) {
   
   card.innerHTML = `
     <div class="project-image">
-      <img src="${project.image}" alt="${project.title}">
+      <img loading="lazy" src="${project.image}" alt="${project.title}">
     </div>
     <div class="project-info">
       <div class="project-category">${capitalizeFirstLetter(project.category)}</div>

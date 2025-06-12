@@ -21,6 +21,14 @@ const downloadResumeBtn = document.getElementById('download-resume');
 
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
+  const text = "Building with coffee & code... ";
+const container = document.getElementById("crazy-text");
+container.innerHTML = text
+  .split("")
+  .map((char, i) => `<span style="animation-delay: ${i * 0.05}s">${char}</span>`)
+  .join("");
+
+
   // Hide loader after page is loaded
   window.addEventListener('load', () => {
     setTimeout(() => {

@@ -161,7 +161,7 @@ function setupParticleAnimation() {
 
   // Create particles
   const particles = [];
-  const particleCount = Math.min(window.innerWidth / 10, 100); // Adjust number based on screen width
+  const particleCount = Math.min(window.innerWidth / 20, 50); // Adjust number based on screen width
   
   for (let i = 0; i < particleCount; i++) {
     particles.push(new Particle());

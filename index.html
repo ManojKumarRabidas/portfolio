@@ -2,22 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="images/manoj-1.jpeg" />
+    <link rel="icon" type="image/svg+xml" href="images/manoj-1.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manoj Kumar Rabidas | Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animations.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <script src="js/main.js" type="module" defer></script>
-    <script src="js/common.js" type="script"></script>
+    <script defer src="js/main.js" type="module" defer></script>
   </head>
   <body>
     <div id="loader">
-      <div class="loader-content">
-        <div class="spinner"></div>
-        <p>Loading...</p>
+      <div class="modern-loader">
+        <div class="crazy-text" id="crazy-text"></div>
+        <div class="dots">
+          <span>.</span><span>.</span><span>.</span>
+        </div>
       </div>
     </div>
+
+
+
 
     <header id="header">
       <div class="container">
@@ -62,7 +66,7 @@
             </div>
             <div class="hero-image fade-in">
               <div class="profile-container">
-                <img id="profile-pic" src="images/manoj-1.jpeg" alt="Manoj Kumar Rabidas" />
+                <img loading="lazy" id="profile-pic" src="images/manoj-1.webp" alt="Manoj Kumar Rabidas" />
               </div>
             </div>
           </div>
@@ -292,27 +296,9 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <a href="#home">MKR</a>
-          </div>
-          
-          <div class="footer-social">
-            <label for="version-switcher">Versions:</label>
-            <select id="version-switcher" onchange="location.href = getVersionUrl(this.value)">
-              <option value="index.html">v-3.1.1</option>
-              <option value="v2/index.html">v-2.6.2</option>
-              <option value="v2/index-old.html">v-1.2.4</option>
-            </select>
-
-          </div>
-
-        </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Manoj Kumar Rabidas. All Rights Reserved.</p>
+          <p>&copy; 2025 Manoj Kumar Rabidas. All Rights Reserved. Version: 3.1.5</p>
         </div>
-      </div>
     </footer>
 
     <div class="scroll-to-top">
@@ -320,29 +306,4 @@
     </div>
   </body>
 </html>
-<script>
-  function getBasePath() {
-    const path = window.location.pathname;
-    if (path.includes('/portfolio/')) return '/portfolio/';
-    if (path.includes('/v2/') || path.includes('index.html')) return '/';
-    return '/'; // fallback
-  }
 
-  function getVersionUrl(relativePath) {
-    const base = window.location.origin + getBasePath();
-    return base + relativePath;
-  }
-
-  window.addEventListener('DOMContentLoaded', () => {
-    const selector = document.getElementById('version-switcher');
-    const currentPath = window.location.pathname;
-
-    for (let i = 0; i < selector.options.length; i++) {
-      const expectedPath = getBasePath() + selector.options[i].value;
-      if (currentPath.endsWith(selector.options[i].value) || currentPath === expectedPath) {
-        selector.selectedIndex = i;
-        break;
-      }
-    }
-  });
-</script>
