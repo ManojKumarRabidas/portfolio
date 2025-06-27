@@ -1,16 +1,26 @@
 const projects = [
   {
     id: 1,
+    title: 'Mini Blog Application',
+    category: 'web',
+    image: 'images/mini-blog.webp?auto=compress&cs=tinysrgb&w=600',
+    description: 'An very basic web application where some public blog are available as well as Admin panel is available for writing editing blogs.',
+    technologies: ['lowdb,', ' Next.js,', ' Node,',  ' Express,', ' JavaScript,', ' Tailwind CSS,'],
+    github: 'https://github.com/ManojKumarRabidas/MINI-BLOG',
+    live: 'https://youtu.be/zAHp5ZPiB_c?si=pduT3snQ1X3IVZUp',
+  },
+  {
+    id: 2,
     title: 'Resume Builder - A Web Application',
     category: 'web',
     image: 'images/resume-builder.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An web application where you can build your customize resume with one click..',
     technologies: ['MongoDB,', ' React,', ' Node,',  ' Express,', ' TypeScript,', ' Tailwind CSS,'],
     github: 'https://github.com/ManojKumarRabidas/resume-builder',
-    live: 'content-not-available.html',
+    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDQguTxBja_x_3pB-WxHqtcO&si=bMcTJuKV5rnF2CIb',
   },
   {
-    id: 1,
+    id: 3,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
     image: 'images/ChatAGENT-icon.webp?auto=compress&cs=tinysrgb&w=600',
@@ -20,7 +30,7 @@ const projects = [
     live: 'content-not-available.html',
   },
   {
-    id: 2,
+    id: 4,
     title: 'StockEZZ - An Inventory & Billing Management System',
     category: 'web',
     image: 'images/stockezz-2.webp?auto=compress&cs=tinysrgb&w=600',
@@ -30,7 +40,7 @@ const projects = [
     live: 'content-not-available.html',
   },
   {
-    id: 3,
+    id: 5,
     title: 'EduInsights - A Student & Teacher Feedback System',
     category: 'web',
     image: 'images/eduinsights-2.webp?auto=compress&cs=tinysrgb&w=600',
@@ -40,7 +50,7 @@ const projects = [
     live: 'https://youtube.com/playlist?list=PLpHN6SEszUDTWEtgSbcO9m3ZHn-Z1tynk&si=xM1hqX_h6z3v5vCz',
   },
   {
-    id: 4,
+    id: 6,
     title: 'EMS – Employee Management System',
     category: 'web',
     image: 'images/ems.webp?auto=compress&cs=tinysrgb&w=600',
@@ -50,7 +60,7 @@ const projects = [
     live: 'content-not-available.html',
   },
   {
-    id: 5,
+    id: 7,
     title: 'HRUToday Doctor Module',
     category: 'web',
     image: 'images/hrutoday.webp?auto=compress&cs=tinysrgb&w=600',
@@ -60,7 +70,7 @@ const projects = [
     live: 'https://hru.today/'
   },
   {
-    id: 6,
+    id: 8,
     title: 'CTTA Application',
     category: 'web',
     image: 'images/ctta.webp?auto=compress&cs=tinysrgb&w=600',
@@ -70,7 +80,7 @@ const projects = [
     live: 'https://ctta.tealink.in/'
   },
   {
-    id: 6,
+    id: 9,
     title: 'Mentorwallah - A Mentorship Platform',
     category: 'web',
     image: 'images/mentorwallah.webp?auto=compress&cs=tinysrgb&w=600',
