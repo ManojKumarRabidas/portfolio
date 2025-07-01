@@ -37,7 +37,7 @@ const projects = [
     description: 'This is a web application developed with React-Node which will manage and track the stock, bills, payments for large and medium size company or store.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
     github: 'https://github.com/ManojKumarRabidas/StockEZZ',
-    live: 'content-not-available.html',
+    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDSf3pSZNC1I07FkewsEE641&si=IUGyIHjZiK37j4S1',
   },
   {
     id: 5,
