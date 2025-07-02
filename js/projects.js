@@ -6,88 +6,115 @@ const projects = [
     image: 'images/mini-blog.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An very basic web application where some public blog are available as well as Admin panel is available for writing editing blogs.',
     technologies: ['lowdb,', ' Next.js,', ' Node,',  ' Express,', ' JavaScript,', ' Tailwind CSS,'],
+    level: "Basic",
+    type: "Personal",
     github: 'https://github.com/ManojKumarRabidas/MINI-BLOG',
-    live: 'https://youtu.be/zAHp5ZPiB_c?si=pduT3snQ1X3IVZUp',
+    live: 'content-not-available.html',
+    demo: 'https://youtu.be/zAHp5ZPiB_c?si=pduT3snQ1X3IVZUp',
   },
   {
     id: 2,
     title: 'Resume Builder - A Web Application',
     category: 'web',
+    type: "Personal",
     image: 'images/resume-builder.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An web application where you can build your customize resume with one click..',
     technologies: ['MongoDB,', ' React,', ' Node,',  ' Express,', ' TypeScript,', ' Tailwind CSS,'],
+    level: "Intermediate",
     github: 'https://github.com/ManojKumarRabidas/resume-builder',
-    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDQguTxBja_x_3pB-WxHqtcO&si=bMcTJuKV5rnF2CIb',
+    live: 'content-not-available.html',
+    demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDQguTxBja_x_3pB-WxHqtcO&si=bMcTJuKV5rnF2CIb',
   },
   {
     id: 3,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
+    type: "Personal",
     image: 'images/ChatAGENT-icon.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'An AI powered chatbot which can reply the basic queries of users using "qwen2.5:0.5b" model.',
     technologies: ['Python,', ' FastAPI,', ' React,',  ' OLLAMA,', ' MySQL,', ' Model: "qwen2.5:0.5b"'],
+    level: "Basic",
     github: 'https://github.com/ManojKumarRabidas/ChatAGENT',
     live: 'content-not-available.html',
+    demo: 'content-not-available.html',
   },
   {
     id: 4,
     title: 'StockEZZ - An Inventory & Billing Management System',
     category: 'web',
+    type: "Personal",
     image: 'images/stockezz-2.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application developed with React-Node which will manage and track the stock, bills, payments for large and medium size company or store.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
+    level: "Advanced",
     github: 'https://github.com/ManojKumarRabidas/StockEZZ',
-    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDSf3pSZNC1I07FkewsEE641&si=IUGyIHjZiK37j4S1',
+    live: 'https://stockezz.netlify.app/',
+    demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDSf3pSZNC1I07FkewsEE641&si=IUGyIHjZiK37j4S1',
   },
   {
     id: 5,
     title: 'EduInsights - A Student & Teacher Feedback System',
     category: 'web',
+    type: "Team Project",
     image: 'images/eduinsights-2.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'College feedback web app enabling students and teachers to exchange feedback. This insight empowers users and college leadership for informed action.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' React,', ' Node.js(Express),', ' MongoDB'],
+    level: "Advanced",
     github: 'https://github.com/ManojKumarRabidas/EduInsights',
-    live: 'https://youtube.com/playlist?list=PLpHN6SEszUDTWEtgSbcO9m3ZHn-Z1tynk&si=xM1hqX_h6z3v5vCz',
+    live: 'content-not-available.html',
+    demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDTWEtgSbcO9m3ZHn-Z1tynk&si=xM1hqX_h6z3v5vCz',
   },
   {
     id: 6,
     title: 'EMS – Employee Management System',
     category: 'web',
+    type: "Personal",
     image: 'images/ems.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a saas web application for the medium or small size organization to track there employess performation and store their information.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' MongoDB'],
+    level: "Intermediate",
     github: 'https://github.com//ManojKumarRabidas/EMS',
     live: 'content-not-available.html',
+    demo: 'content-not-available.html',
   },
   {
     id: 7,
     title: 'HRUToday Doctor Module',
     category: 'web',
+    type: "Client Work",
     image: 'images/hrutoday.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application (product) of RVS Health Care Pvt. Ltd. Developed by Illimitable Consulting Pvt. Ltd. Which has multiple module like Doctor Module, Patient Module, Hospital Module etc.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
+    level: "Advanced",
     github: 'content-not-available.html',
-    live: 'https://hru.today/'
+    live: 'https://hru.today/',
+    demo: 'content-not-available.html',
   },
   {
     id: 8,
     title: 'CTTA Application',
     category: 'web',
+    type: "Client Work",
     image: 'images/ctta.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
+    level: "Advanced",
     github: 'content-not-available.html',
-    live: 'https://ctta.tealink.in/'
+    live: 'https://ctta.tealink.in/',
+    demo: 'content-not-available.html',
   },
   {
     id: 9,
     title: 'Mentorwallah - A Mentorship Platform',
     category: 'web',
+    type: "Team Project",
     image: 'images/mentorwallah.webp?auto=compress&cs=tinysrgb&w=600',
     description: 'A web applicatio where anyone can find a specilized mentor. This is a platform where anyone can find a mentor for their career, business, or any other field.',
     technologies: ['HTML,', ' CSS,', ' JS,', ' PHP,', ' MySQL'],
+    level: "Basic",
     github: 'content-not-available.html',
     live: 'content-not-available.html',
+    demo: 'content-not-available.html',
   }
 ];
 
@@ -150,6 +177,8 @@ function createProjectCard(project) {
     </div>
     <div class="project-info">
       <div class="project-category">${capitalizeFirstLetter(project.category)}</div>
+      <div class="project-category">${project.level}</div>
+      <div class="project-category">${project.type}</div>
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <div class="project-techs">
@@ -157,7 +186,8 @@ function createProjectCard(project) {
       </div>
       <div class="project-links">
         <a href="${project.github}" target="_blank" class="project-link">GitHub</a>
-        <a href="${project.live}" target="_blank" class="project-link">Live Demo</a>
+        <a href="${project.demo}" target="_blank" class="project-link">Demo</a>
+        <a href="${project.live}" target="_blank" class="project-link">Live</a>
       </div>
     </div>
   `;
