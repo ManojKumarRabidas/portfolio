@@ -1,5 +1,18 @@
 const projects = [
   {
+    id: 0,
+    title: 'AI-Powered Appointment Booking',
+    category: 'ai',
+    image: 'images/AI-Appointment-booking.webp?auto=compress&cs=tinysrgb&w=600',
+    description: 'Build a healthcare scheduling system with Gemini 2.0 Flash. Book, cancel, or reschedule appointments effortlessly using natural conversation - no manual forms or complex processes required.',
+    technologies: ['Node,', ' Express,', ' React-vite,',  ' Gemini 2.0 Flash ,', ' Google Calendar API,', ' Tailwind CSS,'],
+    level: "Intermediate",
+    type: "Personal",
+    github: 'https://github.com/ManojKumarRabidas/voice-agent.git',
+    live: 'content-not-available.html',
+    demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDQPwJGdlD4xfAK3A33ow4aO&si=0tki7q0mpBQSkiOl',
+  },
+  {
     id: 1,
     title: 'Mini Blog Application',
     category: 'web',
