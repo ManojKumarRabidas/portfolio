@@ -706,6 +706,10 @@ section {
   gap: 0.25rem;
   font-weight: 600;
   font-size: 0.875rem;
+  color: green;
+}
+.project-not-available {
+  color: red;
 }
 
 /* Resume Section */

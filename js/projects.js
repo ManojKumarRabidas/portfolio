@@ -1,6 +1,19 @@
 const projects = [
   {
-    id: 0,
+    id: 10,
+    title: 'EduInsights V2.0',
+    category: 'web',
+    image: 'images/eduinsights-20.webp?auto=compress&cs=tinysrgb&w=600',
+    description: 'This is an <strong>under-development</strong> project. EduInsights V2.0 is a comprehensive school and college management system designed to streamline administrative tasks, enhance communication, and improve overall efficiency in educational institutions.',
+    technologies: ['Node,', ' Express,', ' React-vite,',  ' MongoDB ,', ' Bootstrap,'],
+    level: "Advanced",
+    type: "Personal",
+    github: 'https://github.com/ManojKumarRabidas/EduInsights-v2.git',
+    live: 'content-not-available.html',
+    demo: 'content-not-available.html',
+  },
+  {
+    id: 10,
     title: 'AI-Powered Appointment Booking',
     category: 'ai',
     image: 'images/AI-Appointment-booking.webp?auto=compress&cs=tinysrgb&w=600',
@@ -13,7 +26,7 @@ const projects = [
     demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDQPwJGdlD4xfAK3A33ow4aO&si=0tki7q0mpBQSkiOl',
   },
   {
-    id: 1,
+    id: 9,
     title: 'Mini Blog Application',
     category: 'web',
     image: 'images/mini-blog.webp?auto=compress&cs=tinysrgb&w=600',
@@ -26,7 +39,7 @@ const projects = [
     demo: 'https://youtu.be/zAHp5ZPiB_c?si=pduT3snQ1X3IVZUp',
   },
   {
-    id: 2,
+    id: 8,
     title: 'Resume Builder - A Web Application',
     category: 'web',
     type: "Personal",
@@ -39,7 +52,7 @@ const projects = [
     demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDQguTxBja_x_3pB-WxHqtcO&si=bMcTJuKV5rnF2CIb',
   },
   {
-    id: 3,
+    id: 7,
     title: 'ChatAGENT - An AI-Powered Chatbot',
     category: 'ai',
     type: "Personal",
@@ -52,7 +65,7 @@ const projects = [
     demo: 'content-not-available.html',
   },
   {
-    id: 4,
+    id: 6,
     title: 'StockEZZ - An Inventory & Billing Management System',
     category: 'web',
     type: "Personal",
@@ -78,7 +91,7 @@ const projects = [
     demo: 'https://youtube.com/playlist?list=PLpHN6SEszUDTWEtgSbcO9m3ZHn-Z1tynk&si=xM1hqX_h6z3v5vCz',
   },
   {
-    id: 6,
+    id: 4,
     title: 'EMS – Employee Management System',
     category: 'web',
     type: "Personal",
@@ -91,7 +104,7 @@ const projects = [
     demo: 'content-not-available.html',
   },
   {
-    id: 7,
+    id: 3,
     title: 'HRUToday Doctor Module',
     category: 'web',
     type: "Client Work",
@@ -104,7 +117,7 @@ const projects = [
     demo: 'content-not-available.html',
   },
   {
-    id: 8,
+    id: 2,
     title: 'CTTA Application',
     category: 'web',
     type: "Client Work",
@@ -117,7 +130,7 @@ const projects = [
     demo: 'content-not-available.html',
   },
   {
-    id: 9,
+    id: 1,
     title: 'Mentorwallah - A Mentorship Platform',
     category: 'web',
     type: "Team Project",
@@ -198,9 +211,9 @@ function createProjectCard(project) {
         ${techList}
       </div>
       <div class="project-links">
-        <a href="${project.github}" target="_blank" class="project-link">GitHub</a>
-        <a href="${project.demo}" target="_blank" class="project-link">Demo</a>
-        <a href="${project.live}" target="_blank" class="project-link">Live</a>
+        <a href="${project.github}" target="_blank" class="${project.github == "content-not-available.html"? "project-link project-not-available" : "project-link" }">GitHub</a>
+        <a href="${project.demo}" target="_blank" class="${project.demo == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Demo</a>
+        <a href="${project.live}" target="_blank" class="${project.live == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Live</a>
       </div>
     </div>
   `;
