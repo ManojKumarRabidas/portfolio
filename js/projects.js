@@ -96,7 +96,7 @@ const projects = [
     category: 'web',
     type: "Personal",
     image: 'images/ems.webp?auto=compress&cs=tinysrgb&w=600',
-    description: 'This is a saas web application for the medium or small size organization to track there employess performation and store their information.',
+    description: 'This is a saas web application for the medium or small size organization to track their employess performation and store their information.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' MongoDB'],
     level: "Intermediate",
     github: 'https://github.com//ManojKumarRabidas/EMS',
@@ -122,7 +122,7 @@ const projects = [
     category: 'web',
     type: "Client Work",
     image: 'images/ctta.webp?auto=compress&cs=tinysrgb&w=600',
-    description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea.',
+    description: 'This is a web application used by Calcutta Tea Traders Association and their warehouses for efficient treding of tea developed by Illimitable Consulting Pvt. Ltd.',
     technologies: ['HBS,', ' CSS,', ' JS,', ' Node.js(KOA),', ' Angular.js', ' MongoDB'],
     level: "Advanced",
     github: 'content-not-available.html',
@@ -211,9 +211,9 @@ function createProjectCard(project) {
         ${techList}
       </div>
       <div class="project-links">
-        <a href="${project.github}" target="_blank" class="${project.github == "content-not-available.html"? "project-link project-not-available" : "project-link" }">GitHub</a>
-        <a href="${project.demo}" target="_blank" class="${project.demo == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Demo</a>
-        <a href="${project.live}" target="_blank" class="${project.live == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Live</a>
+        <a href="${project.github}" target="_blank" title="${project.github == "content-not-available.html"? "Not available" : "Available" }" class="${project.github == "content-not-available.html"? "project-link project-not-available" : "project-link" }">GitHub</a>
+        <a href="${project.demo}" target="_blank" title="${project.demo == "content-not-available.html"? "Not available" : "Available" }" class="${project.demo == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Demo</a>
+        <a href="${project.live}" target="_blank" title="${project.live == "content-not-available.html"? "Not available" : "Available" }" class="${project.live == "content-not-available.html"? "project-link project-not-available" : "project-link" }">Live</a>
       </div>
     </div>
   `;

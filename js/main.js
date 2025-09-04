@@ -19,6 +19,7 @@ const themeToggle = document.getElementById('theme-icon');
 const scrollToTop = document.querySelector('.scroll-to-top');
 const downloadResumeBtn = document.getElementById('download-resume');
 
+
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
   const text = "Building   with   coffee   &   code... ";
