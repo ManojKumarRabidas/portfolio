@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 8,
-    title: 'Resume Builder - A Web Application',
+    title: 'Resume Builder',
     category: 'web',
     type: "Personal",
     image: 'images/resume-builder.webp?auto=compress&cs=tinysrgb&w=600',
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     id: 7,
-    title: 'ChatAGENT - An AI-Powered Chatbot',
+    title: 'ChatAGENT',
     category: 'ai',
     type: "Personal",
     image: 'images/ChatAGENT-icon.webp?auto=compress&cs=tinysrgb&w=600',
@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 6,
-    title: 'StockEZZ - An Inventory & Billing Management System',
+    title: 'StockEZZ',
     category: 'web',
     type: "Personal",
     image: 'images/stockezz-2.webp?auto=compress&cs=tinysrgb&w=600',
@@ -79,7 +79,7 @@ const projects = [
   },
   {
     id: 5,
-    title: 'EduInsights - A Student & Teacher Feedback System',
+    title: 'EduInsights',
     category: 'web',
     type: "Team Project",
     image: 'images/eduinsights-2.webp?auto=compress&cs=tinysrgb&w=600',
@@ -92,7 +92,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'EMS – Employee Management System',
+    title: 'Employee Management System',
     category: 'web',
     type: "Personal",
     image: 'images/ems.webp?auto=compress&cs=tinysrgb&w=600',
@@ -105,7 +105,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'HRUToday Doctor Module',
+    title: 'HRUToday [Doctor]',
     category: 'web',
     type: "Client Work",
     image: 'images/hrutoday.webp?auto=compress&cs=tinysrgb&w=600',
@@ -131,7 +131,7 @@ const projects = [
   },
   {
     id: 1,
-    title: 'Mentorwallah - A Mentorship Platform',
+    title: 'Mentorwallah',
     category: 'web',
     type: "Team Project",
     image: 'images/mentorwallah.webp?auto=compress&cs=tinysrgb&w=600',
